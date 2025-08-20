@@ -197,7 +197,7 @@ const Hero = () => {
           {/* Greeting */}
           <motion.div variants={itemVariants} className="mb-4">
             <span className="text-lg text-muted-foreground font-medium">
-              Hi, I'm
+              Hi, I&apos;m
             </span>
           </motion.div>
 
@@ -214,7 +214,7 @@ const Hero = () => {
             variants={itemVariants}
             className="text-xl md:text-2xl font-semibold text-muted-foreground mb-6"
           >
-            Computer Engineering @ UC Santa Cruz • AI & Full-Stack
+            Computer Engineering @ UC Santa Cruz &bull; AI &amp; Full-Stack
           </motion.h2>
 
           {/* Description */}

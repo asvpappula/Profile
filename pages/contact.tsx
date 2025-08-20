@@ -70,7 +70,7 @@ const ContactPage = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-blue-600">Get In Touch</h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            I'm always open to discussing new opportunities, interesting projects, 
+            I&apos;m always open to discussing new opportunities, interesting projects, 
             or just having a chat about technology. Feel free to reach out!
           </p>
         </div>
@@ -81,7 +81,7 @@ const ContactPage = () => {
             <CardHeader>
               <CardTitle>Send me a message</CardTitle>
               <CardDescription>
-                Fill out the form below and I'll get back to you as soon as possible.
+                Fill out the form below and I&apos;ll get back to you as soon as possible.
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -125,7 +125,7 @@ const ContactPage = () => {
                     value={formData.subject}
                     onChange={handleInputChange}
                     required
-                    placeholder="What's this about?"
+                    placeholder="What&apos;s this about?"
                   />
                 </div>
                 <div>
@@ -196,15 +196,15 @@ const ContactPage = () => {
 
             <Card>
               <CardHeader>
-                <CardTitle>Let's Connect</CardTitle>
+                <CardTitle>Let&apos;s Connect</CardTitle>
                 <CardDescription>
-                  I'm always interested in hearing about new opportunities and projects.
+                  I&apos;m always interested in hearing about new opportunities and projects.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Whether you're looking to hire a developer, collaborate on a project, 
-                  or just want to say hello, I'd love to hear from you. I typically 
+                  Whether you&apos;re looking to hire a developer, collaborate on a project, 
+                  or just want to say hello, I&apos;d love to hear from you. I typically 
                   respond within 24 hours.
                 </p>
               </CardContent>

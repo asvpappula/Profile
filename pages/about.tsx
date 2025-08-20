@@ -229,8 +229,8 @@ const AboutPage = () => {
                       variants={textLineVariants}
                       className="text-lg md:text-xl text-muted-foreground leading-relaxed"
                     >
-                      I'm a passionate software engineer and AI enthusiast with a strong foundation in 
-                      full-stack development and machine learning. Currently pursuing my Master's in Computer Science 
+                      I&apos;m a passionate software engineer and AI enthusiast with a strong foundation in 
+                      full-stack development and machine learning. Currently pursuing my Master&apos;s in Computer Science 
                       at UC Santa Cruz, I love building innovative solutions that bridge the gap between 
                       cutting-edge technology and real-world applications.
                     </motion.p>
@@ -241,7 +241,7 @@ const AboutPage = () => {
                     >
                       My journey in tech began with a curiosity about how things work under the hood. 
                       This led me to explore everything from frontend frameworks like React and Next.js 
-                      to backend technologies like Node.js and Python. I've also delved deep into 
+                      to backend technologies like Node.js and Python. I&apos;ve also delved deep into 
                       machine learning, working with TensorFlow and PyTorch to build intelligent systems 
                       that can learn and adapt.
                     </motion.p>
@@ -250,10 +250,10 @@ const AboutPage = () => {
                       variants={textLineVariants}
                       className="text-lg md:text-xl text-muted-foreground leading-relaxed"
                     >
-                      When I'm not coding, you'll find me exploring the latest AI research papers, 
+                      When I&apos;m not coding, you&apos;ll find me exploring the latest AI research papers, 
                       contributing to open-source projects, or working on my startup ResumeTailor AI. 
-                      I believe in the power of technology to solve real problems and make people's lives better. 
-                      Whether it's building a user-friendly interface or training a complex neural network, 
+                      I believe in the power of technology to solve real problems and make people&apos;s lives better. 
+                      Whether it&apos;s building a user-friendly interface or training a complex neural network, 
                       I approach every project with enthusiasm and attention to detail.
                     </motion.p>
                   </motion.div>
@@ -360,12 +360,12 @@ const AboutPage = () => {
                     viewport={{ once: true }}
                   >
                     <h2 className="text-4xl md:text-5xl font-bold mb-6 text-blue-600">
-                      Let's Build Something Amazing Together
+                      Let&apos;s Build Something Amazing Together
                     </h2>
                     <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
-                      I'm always excited to work on innovative projects and 
+                      I&apos;m always excited to work on innovative projects and 
                       collaborate with talented teams. 
-                      Whether you have a project in mind or just want to connect, I'd love to hear from you!
+                      Whether you have a project in mind or just want to connect, I&apos;d love to hear from you!
                     </p>
                   </motion.div>
 
