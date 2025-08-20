@@ -42,14 +42,14 @@ const ContactPage = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'adithya@example.com',
-      href: 'mailto:adithya@example.com'
+      value: 'pappula.asv@gmail.com',
+      href: 'mailto:pappula.asv@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '9259685111',
+      href: 'tel:9259685111'
     },
     {
       icon: MapPin,
