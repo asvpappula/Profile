@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { X, ExternalLink, Github, Code, Database, Cpu, Globe, Zap, Layers, Server, Palette, Users, Award, Heart } from "lucide-react";
+import { X, ExternalLink, Github, Code, Database, Cpu, Globe, Zap, Layers, Server, Palette, Users, Award } from "lucide-react";
 
 interface ProjectDetailProps {
   project: {
@@ -367,7 +367,7 @@ const ProjectDetailView = ({ project, isOpen, onClose }: ProjectDetailProps) => 
                     
                     <div>
                       <h3 className="text-sm sm:text-base font-semibold mb-3 flex items-center gap-2">
-                        <Heart className="w-4 h-4" />
+                        <Award className="w-4 h-4" />
                         Special Thanks
                       </h3>
                       <div className="space-y-2">
