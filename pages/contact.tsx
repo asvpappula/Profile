@@ -48,7 +48,7 @@ const ContactPage = () => {
     {
       icon: Phone,
       label: 'Phone',
-      value: '9259685111',
+      value: '925-968-5111',
       href: 'tel:9259685111'
     },
     {
