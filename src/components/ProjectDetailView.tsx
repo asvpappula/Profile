@@ -64,6 +64,15 @@ const ProjectDetailView = ({ project, isOpen, onClose }: ProjectDetailProps) => 
     "HTML": Code,
     "CSS": Palette,
     "JavaScript": Code,
+    "Monaco Editor": Code,
+    "Vite": Zap,
+    "React 18": Code,
+    "shadcn/ui": Palette,
+    "React Router DOM": Code,
+    "Lucide React": Palette,
+    "React hooks": Code,
+    "React context": Code,
+    "Next-themes": Palette,
   };
 
   const modalVariants = {

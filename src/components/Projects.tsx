@@ -41,6 +41,8 @@ const Projects = () => {
     "Docker": Layers,
     "PostgreSQL": Database,
     "Redis": Database,
+    "Monaco Editor": Code,
+    "Vite": Zap,
   };
 
   const projects = [
@@ -143,17 +145,57 @@ const Projects = () => {
       architecture: "/placeholder.svg"
     },
     {
-      title: "Distributed Task Manager",
-      description: "Scalable task management system with real-time collaboration features, built for high-performance distributed environments.",
-      expandedDescription: "Enterprise-grade task management with microservices architecture, real-time collaboration, and advanced analytics for team productivity.",
-      tech: ["FastAPI", "Docker", "PostgreSQL", "Supabase", "Redis"],
-      github: "https://github.com/adithyasaipappula/distributed-tasks",
-      demo: "https://task-manager-demo.vercel.app",
+      title: "AI Debug",
+      description: "A modern AI-powered debugging assistant that helps developers identify, analyze, and fix code issues across multiple programming languages.",
+      expandedDescription: "A modern AI-powered debugging assistant that helps developers identify, analyze, and fix code issues across multiple programming languages. The application provides intelligent code analysis with detailed insights including stack trace interpretation, root cause identification, and automated fix suggestions, all wrapped in a beautiful developer-focused interface.",
+      tech: ["React", "TypeScript", "Tailwind CSS", "Monaco Editor", "OpenAI", "Vite"],
+      github: "https://github.com/adithyasaipappula/ai-debug",
+      demo: "https://ai-debug-demo.vercel.app",
       featured: false,
-      thumbnail: "/placeholder.svg",
+      thumbnail: "/AIdebug1.png",
       leadDeveloper: "Adithya Pappula",
-      screenshots: ["/placeholder.svg", "/placeholder.svg"],
-      architecture: "/placeholder.svg"
+      screenshots: ["/AIdebug1.png", "/AIdebug2.png", "/AIdebug3.png"],
+      architecture: "/placeholder.svg",
+      keyFeatures: [
+        {
+          title: "AI-Powered Code Analysis",
+          description: "Leverages artificial intelligence to analyze code and identify potential bugs, runtime errors, and logical issues with high confidence scoring."
+        },
+        {
+          title: "Multi-Language Support",
+          description: "Supports code analysis for Python, JavaScript, and Java with language-specific error detection and debugging suggestions."
+        },
+        {
+          title: "Interactive Code Editor",
+          description: "Features Monaco Editor integration providing syntax highlighting, code completion, and a VS Code-like editing experience."
+        },
+        {
+          title: "Comprehensive Analysis Reports",
+          description: "Generates detailed reports including overview, stack traces, root cause analysis, suggested fixes, reproduction steps, and patched code examples."
+        },
+        {
+          title: "Mock & Live Analysis Modes",
+          description: "Works instantly with deterministic mock data for demonstration, with capability to switch to live AI analysis when API keys are provided."
+        },
+        {
+          title: "Export Functionality",
+          description: "Allows users to export analysis reports in Markdown format for documentation and sharing."
+        }
+      ],
+      techStack: [
+        { category: "Frontend Framework", items: ["React 18", "TypeScript"] },
+        { category: "Styling & UI", items: ["Tailwind CSS", "shadcn/ui"] },
+        { category: "Code Editor", items: ["Monaco Editor"] },
+        { category: "Build Tool", items: ["Vite"] },
+        { category: "Routing", items: ["React Router DOM"] },
+        { category: "Icons", items: ["Lucide React"] },
+        { category: "State Management", items: ["React hooks", "React context"] },
+        { category: "Theming", items: ["Next-themes"] }
+      ],
+      credits: {
+        productTeam: ["Lead Developer: Adithya Pappula"],
+        specialThanks: ["OpenAI for AI capabilities", "Monaco Editor team", "shadcn/ui component library"]
+      }
     },
   ];
 
@@ -298,9 +340,9 @@ const Projects = () => {
                       <motion.img
                         src={project.thumbnail}
                         alt={project.title}
-                        className="w-full h-full object-cover transition-all duration-500 filter grayscale group-hover:grayscale-0 group-hover:scale-110"
-                        initial={{ scale: 1.1, filter: "grayscale(100%)" }}
-                        whileHover={{ scale: 1.2, filter: "grayscale(0%)" }}
+                        className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
+                        initial={{ scale: 1.1 }}
+                        whileHover={{ scale: 1.2 }}
                         transition={{ duration: 0.5 }}
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-card/80 via-transparent to-transparent" />
